@@ -1,0 +1,103 @@
+/* POSITIONS */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* TEXT STYLES */
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+/* SPACING */
+
+.ma-1 {
+  margin: 1rem;
+}
+
+.mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+
+/* COMPONENTS */
+
+.card {
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+}
+
+.field-text {
+  background: #FAFAFA;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.btn {
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+}
+.btn--primary {
+  background: #3498DB;
+  border: none;
+  color: #ffffff;
+}
