@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 // import "../App.css";
 import "./Login/login.css";
 import google from '../img/google.svg';
@@ -32,7 +33,7 @@ function Login() {
 
             <div className="card login__signup text-small text-center">
                 <p>Don't have an account?</p>
-                <a href="#">Sign up</a>
+                <Link to="/signup">Sign up</Link>
             </div>
         </div>
     )
