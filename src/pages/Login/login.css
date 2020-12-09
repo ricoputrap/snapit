@@ -1,3 +1,51 @@
+.login {
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+}
+
 .login__card {
     width: 17rem;
+    margin-bottom: 1rem;
+}
+
+.login__title {
+    color: #2C3E50;
+}
+
+.login__forgot-password {
+    text-decoration: none;
+    color: var(--text-tertiary);
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.login__signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17rem;
+}
+
+.login__signup p {
+    margin: 0 0.5rem 0 0;
+}
+
+.login__signup a {
+    text-decoration: none;
+    color: #3498DB;
+    font-weight: var(--weight-bold);
+}
+
+.btn--google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px !important;
+    color: var(--text-tertiary);
+}
+
+.btn--google__icon {
+    margin-right: 0.5rem;
 }

@@ -1,7 +1,21 @@
+:root {
+  --font-family: 'Spartan', sans-serif;
+  
+  --text-primary: #2C3E50;
+  --text-secondary: #8E8E8E;
+  --text-tertiary: #757575;
+  
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+}
+
 body {
   margin: 0;
-  font-family: 'Spartan', sans-serif;
+  font-family: var(--font-family);
   font-size: 16px;
+  color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #F0FAFB;
@@ -116,6 +130,7 @@ h2 {
   width: 100%;
   font-size: 16px;
   font-weight: 700;
+  font-family: var(--font-family);
 }
 .btn--primary {
   background: #3498DB;
